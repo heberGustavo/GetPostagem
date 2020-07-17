@@ -1,0 +1,259 @@
+/*Gerais*/
+/*Fonts*/
+@font-face {
+    font-family: Heavitas;
+    src: url(../fontes/heavitas/Heavitas.ttf);
+}
+
+@font-face {
+    font-family: KeepCalm;
+    src: url(../fontes/keep_calm/KeepCalm-Medium.ttf);
+}
+
+@font-face {
+    font-family: OrangeJuice2;
+    src: url(../fontes/orange_juice_2/Orange\ Juice.ttf);
+}
+
+label,
+p, 
+span, 
+text
+{
+    font-family: Roboto;
+}
+
+button{
+    font-family: KeepCalm;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.negrito-500 {
+    font-weight: 500;
+}
+
+.negrito-700 {
+    font-weight: 700;
+}
+
+.negrito-900 {
+    font-weight: 900;
+}
+
+.btn-green{
+    background-color: green;
+}
+
+
+/*Navbar*/
+header{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+header nav{
+    height: 150px;
+}
+
+header nav img{
+    width: 400px;
+}
+
+header nav button i{
+    color: #00e011;
+}
+
+.navbar-dark .navbar-toggler{
+    color: green;
+    border-color: green;
+}
+
+header nav .botoes-principais {
+    width: 115px;
+    font-size: 20px;
+    text-align: center;
+    background-color: green;
+    border-radius: 50px;
+    margin: 0 15px;
+}
+
+.botoes-principais a {
+    color: #ffffff !important;
+    font-family: KeepCalm;
+}
+
+#navbarCollapse{
+    padding-left: 46%;
+}
+
+/* Active */
+.active-nav {
+    height: 95px !important;
+    line-height: 50px;
+    background-color: rgb(244, 236, 229) !important;
+}
+
+.active-logo {
+    width: 115px;
+    margin-top: 10px;
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    -ms-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+}
+
+.desative-logo {
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    -ms-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+}
+
+/*Marketing Nutricionista*/
+#marketing-nutricionista{
+    height: 450px;
+    margin-top: 60px;
+    background-size: 40%;
+    margin-bottom: 15%;
+}
+
+#marketing-nutricionista h1{
+    font-size: 3.3rem;
+}
+
+#marketing-nutricionista p{
+    font-size: 30px;
+}
+
+#marketing-nutricionista button{
+    height: 50px;
+    font-weight: 700;
+}
+
+#marketing-nutricionista ul{
+    list-style: none;
+    margin-top: -70%;
+    padding-right: 10%;
+}
+
+#marketing-nutricionista img {
+    margin-top: 15%;
+}
+
+#marketing-nutricionista .margem-coluna-botoes{
+    padding-right: 10%;
+}
+
+#marketing-nutricionista li{
+    padding: 5px 0;
+}
+
+#marketing-nutricionista ul button{
+    border-radius: 15px 15px 30px 30px;
+}
+
+#lista-btn-principal-1 button{
+    width: 70%; 
+}
+
+#lista-btn-principal-2 button{
+    width: 60%;
+}
+
+#lista-btn-principal-3 button{
+    width: 50%;
+}
+
+#marketing-nutricionista .coluna-botoes{
+    margin-left: -10%;
+}
+
+/*Media Query*/
+@media (max-width: 575.98px) { 
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .img-fluid {
+        max-width: 85%;
+    }
+
+    #marketing-nutricionista h1{
+        font-size: 2.9rem;
+    }
+
+    #marketing-nutricionista p{
+        font-size: 22px;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    header nav img{
+        margin-left: -30%;
+    }
+    
+    #navbarCollapse {
+        padding-left: 6%;
+        margin-right: -59px;
+    }
+
+    #marketing-nutricionista p{
+        font-size: 25px;
+    }
+
+    #esperimentar-agora button{
+        width: 270px;
+    }
+
+    #marketing-nutricionista ul{
+        margin-top: -116%;
+        margin-right: -114px;
+        margin-left: 43px;
+    }
+    
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    header nav img{
+        margin-left: -22%;
+    }
+
+    #navbarCollapse {
+        padding-left: 30%;
+    }
+
+    #marketing-nutricionista ul{
+        margin-top: -85%;
+        padding-right: 0%;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    
+ }
