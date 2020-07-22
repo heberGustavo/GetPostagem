@@ -22,6 +22,10 @@
     - Laranja : #ff943d
 */
 
+.tracejado-mobile{
+    display: none;
+}
+
 .verde-claro{
     color: #00db71;
 }
@@ -98,6 +102,9 @@ button{
     background-color: green;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 /*Navbar*/
 header{
@@ -189,6 +196,10 @@ header nav .botoes-principais {
     color: orange !important;    
 }
 
+#esperimentar-agora1{
+    height: 50px;
+}
+
 #marketing-nutricionista ul{
     list-style: none;
     margin-top: -70%;
@@ -201,6 +212,10 @@ header nav .botoes-principais {
 
 #marketing-nutricionista .margem-coluna-botoes{
     padding-right: 10%;
+}
+
+#img-superior-principal{
+    width: 550px;   
 }
 
 #marketing-nutricionista li{
@@ -356,13 +371,13 @@ header nav .botoes-principais {
 }
 
 .carousel .btn-superior{
-    width: 150px;
+    width: 100%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 70px;
 }
 
 .img-carrossel{
-    width: 200px !important;
+    width: 95% !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -374,7 +389,7 @@ header nav .botoes-principais {
 }
 
 .slick-prev{
-    margin-left: 297px;
+    margin-left: 20%;
     margin-top: 30px;
 }
 
@@ -383,7 +398,7 @@ header nav .botoes-principais {
 }
 
 .slick-next{
-    margin-right: 297px;
+    margin-right: 20%;
     margin-top: 30px;
 }
 
@@ -465,6 +480,10 @@ header nav .botoes-principais {
     margin-bottom: 3%;
 }
 
+#planos .row-card{
+    justify-content: center;
+}
+
 #planos .card-body h5{
     font-size: 3.75rem;
     display: contents;
@@ -483,6 +502,14 @@ header nav .botoes-principais {
     border-radius: 20px;
     width: 22rem;
     height: 37rem;
+}
+
+#planos .centralizar-button-plano{
+    width: 22rem;
+}
+
+.margin-card{
+    margin-right: -43px;
 }
 
 #planos .card-1 .card-body {
@@ -601,6 +628,7 @@ header nav .botoes-principais {
     color: #ffffff;
     background: #2a2a2a;
     padding: 20px 0;
+    text-align: center;
 }
 
 /*Efeito pulsar*/
@@ -621,13 +649,208 @@ header nav .botoes-principais {
 } 
   
 /*Media Query*/
-@media (max-width: 575.98px) { 
+@media (max-width: 575px) { 
+    header nav .navbar-brand{
+        width: 80%;
+    }
+    .img-fluid{
+        max-width: 88%;
+    }
 
- }
+    #marketing-nutricionista{
+        height: 300px;
+        margin-bottom: 0;
+    }
 
-@media (min-width: 576px) and (max-width: 767.98px) { 
+    #marketing-nutricionista h1{
+        font-size: 2.4rem;
+    }
+
+    #marketing-nutricionista p{
+        font-size: 18px;
+    }
+
+    #marketing-nutricionista button{
+        width: 85%;
+        height: 40px;
+        justify-content: center;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .coluna-botoes{
+        display: none;
+    }
+
+    #elemine-tarefas .titulo{
+        font-size: 27px;
+    }
+
+    #img-posts .conteudo h3{
+        font-size: 26px;
+    }
+
+    .tres-conteudos-horizontal img{
+        width: 60%;
+    }
+
+    .tres-conteudos-horizontal .card{
+        padding: 40px 0;
+    }
+
+    .tres-conteudos-horizontal .titulo{
+        font-size: 24px;
+    }
+
+    .tres-conteudos-horizontal p{
+        font-size: 17px;
+        margin-top: -15px;
+    }
+
+    #redes-atualizadas .titulo{
+        font-size: 26px;
+    }
+
+    .btn-superior{
+        display: none;
+    }
+
+    #botao-esperimentar2 button{
+        width: 70%;
+        height: 10%;
+    }
+
+    .tres-conteudos-horizontal .titulo-funcionamento{
+        font-size: 15px;
+        padding-top: 15%;
+    }
+
+    .tres-conteudos-horizontal .descricao-funcionamento{
+        font-size: 24px;
+    }
+
+    .botoes-redondos{
+        width: 40px;
+        height: 40px;
+        font-size: 19px;
+    }
+
+    .tres-conteudos-horizontal .descricao-sessao2{
+        margin-top: 10px;
+    }
+
+    #integracoes .conteudo p{
+        font-size: 16px;
+    }
+
+    #integracoes .conteudo h3{
+        font-size: 28px;
+    }
+
+    .tres-conteudos-horizontal .img-pronta{
+        width: 70%;
+    }
+
+    .centralizar{
+        padding: 30px 0;
+    }
+
+    #planos .titulo-sessao{
+        font-size: 70px;
+    }
+
+    #planos .card-1{
+        border-radius: 20px;
+        width: 18rem;
+        height: 31rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #planos .card-2{
+        border-radius: 20px;
+        width: 18rem;
+        height: 38rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tracejado{
+        display: none;
+    }
+
+    .tracejado-mobile{
+        color: #00db71;
+        font-size: 20px;
+        display: block;
+    }
+
+    #planos .card-body h5{
+        font-size: 2.80rem;
+    }
+
+    #planos h6{
+        font-size: 28px;
+    }
+
+    .topicos{
+        font-size: 20px;
+    }
+
+    #planos button{
+        width: 230px;
+        height: 10%;
+    }
+
+    #planos .centralizar-button-plano{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+
+    .mais-popular{
+        margin-left: 175px;
+        width: 137px;
+        margin-top: -10px;
+    }
+
+    #perguntas-frequentes .titulo-sessao{
+        font-size: 28px;
+    }
+
+    #perguntas-frequentes .card-header button{
+        text-align: start;
+        font-size: 17px;
+    }
+
+    #perguntas-frequentes .card-body{
+        font-size: 16px;
+    }
+
+    #rodape li{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    
+    header nav .botoes-principais{
+        width: 100%;
+        border-radius: 0;
+        border: 1px solid white;
+        background: #004f29;
+    }
+    
     .img-fluid {
-        max-width: 85%;
+        max-width: 75%;
+        margin-left: 11px;
+    }
+
+    #marketing-nutricionista{
+        padding: 0 20px;
+        height: 370px;
+        margin-bottom: 0;
     }
 
     #marketing-nutricionista h1{
@@ -638,19 +861,166 @@ header nav .botoes-principais {
         font-size: 22px;
     }
 
+    #marketing-nutricionista ul{
+        margin-top: -84%;
+        margin-right: -29px;
+        margin-left: -25px;
+    }
+
+    #marketing-nutricionista li {
+        padding: 2px 0;
+    }
+
     #esperimentar-agora1{
         width: 50% !important;
     }
 
     header nav .botoes-principais{
         font-size: 16px;
-        margin: 2px 0;
+    }
+
+    #marketing-nutricionista .coluna-botoes{
+        display: none;
+    }
+
+    #elemine-tarefas .titulo{
+        font-size: 31px;
+    }
+
+    #img-posts .img-principal{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    #img-posts .conteudo h3{
+        font-size: 27px;
+    }
+
+    .tres-conteudos-horizontal img{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tres-conteudos-horizontal .conteudo{
+        margin-top: -80px;
+    }
+
+    .tres-conteudos-horizontal .titulo{
+        font-size: 25px;
+    }
+
+    .tres-conteudos-horizontal p{
+        font-size: 18px;
+        margin-top: -25px;
+    }
+
+    .tres-conteudos-horizontal .card{
+        padding: 30px 0;
+    }
+
+    #redes-atualizadas .titulo{
+        font-size: 31px;
+    }
+
+    .carousel .btn-superior{
+        display: none;
+    }
+
+    #botao-esperimentar2 button{
+        width: 250px;
+        height: 39px;
+        border-radius: 17px;
+    }
+
+    .tres-conteudos-horizontal .titulo-funcionamento{
+        font-size: 17px;
+        padding-top: 40px;
+    }
+
+    .tres-conteudos-horizontal .descricao-funcionamento{
+        font-size: 27px
+    }
+
+    .botoes-redondos{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        margin-left: 120px;
+    }
+
+    .tres-conteudos-horizontal .img-sessao2{
+        width: 50%;
+    }
+
+    #integracoes .conteudo h3{
+        font-size: 31px;
+    }
+
+    #integracoes .conteudo p{
+        font-size: 25px;
+    }
+
+    #integracoes .img-principal{
+        width: 70%;
+        margin-top: 7%;
+    }
+
+    .tres-conteudos-horizontal .img-pronta{
+        width: 60%;
+    }
+
+    .centralizar{
+        padding: 25px 0;
+    }
+
+    #planos .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #planos .centralizar-button-plano{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+
+    #planos .titulo-sessao{
+        font-size: 90px;
+    }
+
+    #perguntas-frequentes .titulo-sessao{
+        font-size: 31px;
+    }
+
+    #perguntas-frequentes .card-header button{
+        text-align: start;
+        font-size: 16px;
+    }
+
+    #perguntas-frequentes .card-body{
+        font-size: 16px;
+    }
+
+    .col-getpostagem{
+        padding: 30px 0;
+        padding-left: 2%;
+    }
+
+    .col-atendimento{
+        padding: 30px 0;
+        padding-left: 10%;
     }
  }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991px) {     
+
     header nav img{
-        margin-left: -30%;
+        margin-left: -3%;
+        width: 370px;
     }
     
     #navbarCollapse {
@@ -658,8 +1028,12 @@ header nav .botoes-principais {
         margin-right: -59px;
     }
 
+    #marketing-nutricionista h1{
+        font-size: 2.9rem;
+    }
+
     #marketing-nutricionista p{
-        font-size: 25px;
+        font-size: 22px;
     }
 
     #esperimentar-agora1 button{
@@ -667,32 +1041,167 @@ header nav .botoes-principais {
     }
 
     #marketing-nutricionista ul{
-        margin-top: -116%;
-        margin-right: -114px;
-        margin-left: 43px;
+        margin-top: -83%;
+        margin-right: -25px;
+        margin-left: -11px;
     }
 
     #esperimentar-agora1{
         width: 250px !important;
     }
+
+    #img-superior-principal {
+        width: 387px !important;
+    }
     
+    #marketing-nutricionista button{
+        height: 39px;
+    }
+
+    #esperimentar-agora1{
+        height: 50px !important;
+    }
+
+    #elemine-tarefas .titulo{
+        font-size: 35px;
+    }
+
+    #img-posts .conteudo h3{
+        font-size: 26px;
+    }
+
+    .tres-conteudos-horizontal img{
+        width: 50%;
+    }
+
+    .tres-conteudos-horizontal .card{
+        margin: 20px 0;
+    }
+
+    .tres-conteudos-horizontal p{
+        margin-top: -15px;
+    }
+
+    #redes-atualizadas .titulo{
+        font-size: 33px;
+    }
+
+    .carousel .btn-superior{
+        display: none;
+    }
+
+    #botao-esperimentar2 button{
+        width: 350px;
+        height: 50px;
+        border-radius: 17px;
+    }
+
+    .tres-conteudos-horizontal .descricao-funcionamento{
+        font-size: 27px;
+    }
+
+    .tres-conteudos-horizontal .titulo-funcionamento{
+        font-size: 17px;
+    }
+
+    .tres-conteudos-horizontal .img-sessao2{
+        width: 50%;
+    }
+    
+    .botoes-redondos{
+        margin-left: 22%;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    #integracoes .conteudo p{
+        font-size: 23px;
+    }
+
+    #integracoes .conteudo h3{
+        font-size: 33px;
+    }
+
+    .tres-conteudos-horizontal .centralizar{
+        padding: 16px 0;
+    }
+
+    .tres-conteudos-horizontal .img-pronta{
+        width: 50%;
+    }
+
+    .margin-card{
+        margin-right: 70px;
+        margin-left: 3%;
+    }
+
+    #planos .row-card{
+        justify-content: start;
+    }
+
+    #perguntas-frequentes .titulo-sessao{
+        font-size: 40px;
+    }
+
+    #perguntas-frequentes .card-header button{
+        font-size: 18px;
+    }
+
+    #perguntas-frequentes .card-body{
+        font-size: 16px;
+    }
+
+    #rodape .titulo{
+        font-size: 1.15rem;
+    }
+
+    #rodape li{
+        margin-left: -30px;
+        font-size: 17px;
+    }
+
+    #rodape .pagamento img{
+        width: 200px;
+    }
+
+    #rodape .redes-sociais img{
+        width: 30px;
+    }
  }
 
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
+
     header nav img{
-        margin-left: -22%;
+        margin-left: -30%;
     }
 
     #navbarCollapse {
-        padding-left: 30%;
+        padding-left: 25%;
     }
 
     #marketing-nutricionista ul{
         margin-top: -85%;
         padding-right: 0%;
     }
+
+    .margin-card{
+        margin-right: 5px;
+    }
+
+    #elemine-tarefas .titulo{
+        font-size: 50px;
+    }
+
+    #redes-atualizadas .titulo{
+        font-size: 45px;   
+    }
+
+    .navbar-dark .navbar-brand{
+        margin-left: 85px;
+    }
  }
 
 @media (min-width: 1200px) { 
-    
+
  }
